@@ -1,3 +1,3 @@
 {
-    "ignoreCommand": "if [ \"$VERCEL_GIT_COMMIT_REF\" != \"main\" ] && [ \"$VERCEL_GIT_COMMIT_REF\" != \"test-main\" ]; then exit 0; fi"
+    "ignoreCommand": "bash script/deploy.sh"
 }
